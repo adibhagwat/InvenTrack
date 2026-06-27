@@ -1,10 +1,5 @@
-# InvenTrack — System Design & Interview Prep Guide
+# InvenTrack — System Design
 
-This is not a build doc — it's a *thinking* doc. Every section pairs a design
-decision with the reasoning behind it, because in an interview you won't be
-asked "what did you build," you'll be asked "why did you build it that way."
-
----
 
 ## 1. System Architecture
 
