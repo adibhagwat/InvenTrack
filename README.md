@@ -20,13 +20,13 @@ inventory-order-system/
 ├── backend/        # FastAPI service
 ├── frontend/       # React (Vite) app
 ├── docker-compose.yml
-└── .env.example    # copy to .env and fill in real values
+└── .env.example    
 ```
 
 ## Running locally with Docker Compose
 
 ```bash
-cp .env.example .env        # then edit .env with real values
+cp .env.example .env       
 docker compose up --build
 ```
 
@@ -94,9 +94,9 @@ live frontend URL so the two can talk to each other.
 
 ## Docker Hub
 
-The backend image is published at: `<your-dockerhub-username>/inventrack-backend`
+The backend image is published at: `adibhagwat/inventrack-backend`
 
 ```bash
-docker build -t <your-dockerhub-username>/inventrack-backend:latest ./backend
-docker push <your-dockerhub-username>/inventrack-backend:latest
+docker build -t adibhagwat/inventrack-backend:latest ./backend
+docker push adibhagwat/inventrack-backend:latest
 ```
