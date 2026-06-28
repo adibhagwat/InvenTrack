@@ -4,6 +4,14 @@ A full-stack system for managing products, customers, and orders, with automatic
 inventory tracking. Built with **FastAPI**, **React**, and **PostgreSQL**, fully
 containerized with **Docker Compose**.
 
+## Live deployment
+ 
+| Resource | Link |
+|---|---|
+| Live frontend | https://inventrack-three.vercel.app |
+| Live backend (API + Swagger ) | https://inventrack-backend-5oyg.onrender.com |
+| Docker Hub image | https://hub.docker.com/r/adibhagwat/inventrack-backend |
+
 ## Stack
 
 | Layer    | Technology               |
