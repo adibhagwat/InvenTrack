@@ -94,7 +94,7 @@ live frontend URL so the two can talk to each other.
 
 ## Docker Hub
 
-The backend image is published at: `adibhagwat/inventrack-backend`
+The backend image is published at: https://hub.docker.com/r/adibhagwat/inventrack-backend
 
 ```bash
 docker build -t adibhagwat/inventrack-backend:latest ./backend
